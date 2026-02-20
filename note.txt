@@ -1,0 +1,32 @@
+Level 1: DOM Selection
+
+// string sign, upperCase, CamaleCase, id এর জায়গাতে class / tag ব্যবহার
+document.getElementsByTagName("p");
+document.getElementById("demo");
+document.getElementsByClassName("msm");
+
+document.querySelector("#demo");
+document.querySelector(".msm");
+document.querySelectorAll(".msm");
+
+// =======variable এর কাজ data store করা=======
+let p = document.getElementsByTagName("p");
+p.innerHTML = "Hello";
+
+// =======keyword========
+value
+event / e
+target
+
+// =====paramiter & argument======
+
+
+// NB: কোন কাজ করতে চাইলই function / method
+Gerneral function 
+arrow function
+
+addEventListener()
+onClick / onChage
+
+
+built in function / dom manipulation 
